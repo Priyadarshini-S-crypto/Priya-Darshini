@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+</head>
+<body>
+    <script>
+        let a = prompt("Enter a value for a :");
+        let b=prompt("Enter a value for b : ");
+        a=parseInt(a);
+        b=parseInt(b);
+        function div(){
+            let div=a/b;
+            document.writeln("Division value:"+div+"<br>");
+        }
+        function mod(){
+            let mod=a%b;
+            document.writeln("Modulo value:"+mod+"<br>");
+        }
+        function mult(){
+            let mult=a*b;
+            document.writeln("Multiplication value:"+mult+"<br>");
+        }
+        function exponentiation(){
+            let expo=a**b;
+            document.write("Exponentiation value:"+expo+"<br>");
+        }
+        div();
+        mod();
+        mult();
+        exponentiation();
+
+        let m1=prompt("enter mark1:");
+        let m2=prompt("enter mark2:");
+        let m3=prompt("enter mark3:");
+        let m4=prompt("enter mark4:");
+        let m5=prompt("enter mark5:");
+        m1=parseInt(m1);
+        m2=parseInt(m2);
+        m3=parseInt(m3);
+        m4=parseInt(m4);
+        m5=parseInt(m5);
+        function TotalAndAvg(){
+            let tot=m1+m2+m3+m4+m5;
+            let avg=tot/5;
+            document.writeln("Total marks: "+tot+"<br>");
+            document.writeln("Average mark: "+avg+"<br>");
+        }
+        TotalAndAvg();
+    </script>
+</body>
+</html>

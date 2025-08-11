@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        let a = prompt ("Enter value for number1:");
+        let b= prompt("enter value for number2:");
+        a=parseInt(a);
+        b=parseInt(b);
+        /*let c=a+b;
+        c++;
+        c--;
+        c+=5;*/
+        
+        function add()
+        {
+            let c=a+b;
+            document.writeln("Add value:"+c+"<br>");
+            console.log("Add value:"+c);
+        }
+        function sub()
+        {
+            let c=a-b;
+            document.writeln(`Sub value: ${c} <br>`);
+            console.log(c);
+        }
+        /*document.writeln(c);
+        console.log(c);*/
+
+        add();
+        sub();
+    </script>
+</body>
+</html>
